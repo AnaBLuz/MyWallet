@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# My-Wallet-Front-end
+Front-end de uma aplicação que simula uma carteira digital. 
+<p>Esta é uma aplicação front-end que simula uma carteira digital, feita com HTML, CSS, JavaScript e a biblioteca React. A aplicação permite que os usuários visualizem seu saldo e histórico de transações, bem como façam transferências de dinheiro para outras contas.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Como executar a aplicação</h2>
 
-## Available Scripts
+<ol>
+	<li>Clone este repositório em sua máquina local.</li>
+	<li>Abra o terminal e navegue até o diretório raiz da aplicação.</li>
+	<li>Execute o comando <code>npm install</code> para instalar as dependências necessárias.</li>
+	<li>Execute o comando <code>npm start</code> para iniciar a aplicação.</li>
+	
+</ol>
+<h2>Funcionalidades</h2>
+<h3>Cadastro</h3>
 
-In the project directory, you can run:
+<p>Na página de cadastro, o usuário pode criar uma nova conta. O usuário deve informar seu nome, e-mail, senha e confirmar a senha.</p>
 
-### `npm start`
+<h3>Login</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p>Na página de login, o usuário pode acessar sua conta. O usuário deve informar seu e-mail e senha.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Histórico de transações</h3>
 
-### `npm test`
+<p>O usuário pode ver o histórico de suas transações na página "TransactionPage". O histórico inclui informações sobre o tipo de transação (entrada ou saída), data e origem do valor. Ainda nessa página é apresentado o saldo total</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Adicionar nova entrada</h3>
 
-### `npm run build`
+<p>O usuário pode adicionar uma nova entrada na página "Nova entrada". O usuário deve informar o valor da entrada e uma descrição. Ao confirmar a entrada, o saldo é atualizado e a transação é adicionada ao histórico.</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Adicionar nova saída</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>O usuário pode adicionar uma nova saída na página "Nova saída". O usuário deve informar o valor da saída e uma descrição. Ao confirmar a saída, o saldo é atualizado e a transação é adicionada ao histórico.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<h2>Tecnologias utilizadas</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<ul>
+	<li>HTML</li>
+	<li>CSS</li>
+	<li>JavaScript</li>
+	<li>React</li>
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Contribuindo</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Sinta-se à vontade para contribuir com este projeto criando pull requests ou reportando problemas.</p>
